@@ -23,6 +23,7 @@
         buildInputs = with pkgs; [
           cargo
           rustc
+          rustfmt
           bashInteractive
           (vscode-with-extensions.override  {
             vscode = pkgs.vscodium;
